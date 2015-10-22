@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical"
+    tools:context="studio.imedia.vehicleinspection.fragments.CarFileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="爱车档案"
+            android:textSize="@dimen/text_size_title_bar"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_car_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
